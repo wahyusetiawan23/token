@@ -1,0 +1,201 @@
+   <div class="splashscreen">
+        <div class="img">
+          <img src="assets/img/img-dprd.jpg" alt="" />
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Profil</button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="">
+                  <table class="table table-borderless">
+                    <tbody>
+                      <tr>
+                        <th>Nama</th>
+                        <td>Soni Danaswara</td>
+                      </tr>
+                      <tr>
+                        <th>Alamat</th>
+                        <td>Jln Peta Gg Sukamulya Dalam 2 No.98</td>
+                      </tr>
+                      <tr>
+                        <th>Tanggal Lahir</th>
+                        <td>Bandung, 21 Januari 1981</td>
+                      </tr>
+                      <tr>
+                        <th>Status</th>
+                        <td>Menikah</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Pekerjaan</button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul class="timeline">
+                  <li>
+                    <p>Owner Soniraflionlineshop Bandung</p>
+                  </li>
+                  <li>
+                    <p>Asesor Parawisata Lsp PramindoOwner</p>
+                  </li>
+                  <li>
+                    <p>Owners Busi Vespa Platinum</p>
+                  </li>
+                  <li>
+                    <p>Tour Leader Umroh Haji Omara tour</p>
+                  </li>
+                  <li>
+                    <p>Public Speaking Class</p>
+                  </li>
+                  <li>
+                    <p>Mosiwa Ambulance Driver</p>
+                  </li>
+                  <li>
+                    <p>Trading Company import</p>
+                  </li>
+                  <li>
+                    <p>Marketing Borneo Flasher Indonesia</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingthree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="false" aria-controls="collapsethree">Pendidikan Formal</button>
+            </h2>
+            <div id="collapsethree" class="accordion-collapse collapse" aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul class="timeline">
+                  <li>
+                    <p>SDN 1 Citarip Barat</p>
+                  </li>
+                  <li>
+                    <p>SMP Muslimin 9 Bandung</p>
+                  </li>
+                  <li>
+                    <p>SMKT Prakarya Internasional</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingfour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">Organisasi</button>
+            </h2>
+            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul class="timeline">
+                  <li>
+                    <p>Ketua SOG Bandung Raya 2020 - 2024</p>
+                  </li>
+                  <li>
+                    <p>Humas Relawan Bongsor Bojongloa Kaler Sosial Respon Kec. Bojongloa Kaler</p>
+                  </li>
+                  <li>
+                    <p>Divisi Usaha Karang Taruna Kencana Asih Kel. Sukaasih Kec. Bojongloa Kaler</p>
+                  </li>
+                  <li>
+                    <p>Anggota PKB Kota Bandung</p>
+                  </li>
+                  <li>
+                    <p>Wakil Ketua Umum TESPOIN Teknisi Ponsel Indonesia</p>
+                  </li>
+                  <li>
+                    <p>Ketua RW Periode 2014-2020</p>
+                  </li>
+                  <li>
+                    <p>Anggota Satgas Covid19 Kec. Bojongloa Kaler</p>
+                  </li>
+                  <li>
+                    <p>Dewan Penasehat AMS Kec. Bojongloa Kaler</p>
+                  </li>
+                  <li>
+                    <p>Dewan Penasehat KNPI Kec. Bojongloa Kaler</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="login.html" class="btn btn-primary">Mulai</a>
+      </div>
+      
+      //css
+      .splashscreen .img img {
+  width: 100%;
+  border-radius: 20px;
+  /* box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0px 0px 4px rgba(255, 106, 136, 0.3);
+}
+
+.splashscreen .accordion {
+  margin-top: 30px;
+  border-radius: 10px !important;
+}
+
+.splashscreen .accordion-button {
+  font-size: 16px;
+  color: #d53f55;
+  font-weight: 500;
+}
+.splashscreen .accordion-item {
+  color: #404040;
+}
+.splashscreen .accordion-body {
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.splashscreen .accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: #ff6a88;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.splashscreen ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+.splashscreen ul.timeline:before {
+  content: " ";
+  background: #ff88a0;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 2;
+}
+.splashscreen ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+.splashscreen ul.timeline > li:before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #d53f55;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+}
+
+.splashscreen .btn {
+  margin-top: 30px;
+}
