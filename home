@@ -1,0 +1,55 @@
+ <div class="data-relawan mt-3">
+            <div class="card">
+              <div class="card-header">Top 5 relawan</div>
+              <div class="card-body">
+                <div class="top">
+                  <div class="row list-top">
+                    <div class="col-2">
+                      <img src="assets/img/user.png" alt="" />
+                    </div>
+                    <div class="col-10">
+                      <h5>Muhammad abidin abidin abidin</h5>
+                      <span class="badge text-bg-primary">300</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+.data-relawan .card {
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.data-relawan .card-header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #f5f7f9;
+  color: #404040;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.top img {
+  width: 34px;
+  height: 34px;
+  border-radius: 100px;
+}
+
+.top {
+  border-bottom: 1px solid #eceef0;
+  margin-bottom: 15px;
+}
+
+.data-relawan h5 {
+  margin-bottom: 0px !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.top .list-top .badge {
+  margin-bottom: 10px;
+  background-color: #ff6a88 !important;
+  border-color: #ff6a88;
+}
