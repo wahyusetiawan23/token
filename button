@@ -1,0 +1,21 @@
+    <td class="text-center">
+                  <a href="" class="btn btn-sm btn-info pulse">1.000.000</a>
+                </td>
+                
+                
+.pulse {
+  animation: pulse-animation 2s infinite;
+  font-size: 12px;
+  background-color: #31c48d !important;
+  color: #fff;
+  border-color: #31c48d;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px #84e1bc;
+  }
+  100% {
+    box-shadow: 0 0 0 13px rgba(167, 119, 119, 0);
+  }
+}
