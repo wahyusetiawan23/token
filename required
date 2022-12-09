@@ -1,0 +1,6 @@
+label.required:after {
+  content: "*";
+  margin-left: 0.25rem;
+  color: #d63939;
+  font-size: 14px;
+}
