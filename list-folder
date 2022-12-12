@@ -8,3 +8,21 @@
                   </div>
                 </div>
                 </div>
+
+   <script>
+      $(document).ready(function () {
+        // Hide div by setting display to none
+        $(".grid-btn").click(function () {
+          $("#iconChange").attr("src", "assets/img/icon-grid.png");
+          $("#listGrid").show();
+          $("#list").hide();
+        });
+
+        // Show div by removing inline display none style rule
+        $(".list-btn").click(function () {
+          $("#iconChange").attr("src", "assets/img/icon-list.png");
+          $("#list").css("display", "inline-flex");
+          $("#listGrid").hide();
+        });
+      });
+    </script>
