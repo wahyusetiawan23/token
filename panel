@@ -1,3 +1,33 @@
+
+.list-folder img {
+  width: 28px;
+  margin-right: 5px;
+}
+
+.list-folder span {
+  font-size: 13px;
+  font-weight: 500;
+  color: #1b1c1e;
+}
+
+@media (max-height: 600px) {
+  .card-folder .content-list-folder .col-md-12 {
+    max-width: 25% !important;
+  }
+}
+
+@media (min-height: 600px) {
+  .card-folder .content-list-folder .col-md-12 {
+    max-width: 33% !important;
+  }
+}
+
+@media (min-height: 900px) {
+  .card-folder .content-list-folder .col-md-12 {
+    max-width: 50% !important;
+  }
+}
+
 .content-list-folder {
   display: none;
 }
@@ -43,6 +73,7 @@
   width: 44px;
   margin-top: 3px;
 }
+
 
 
 <div class="panel">
