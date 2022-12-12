@@ -1,0 +1,72 @@
+.content-list-folder {
+  display: none;
+}
+.content-list-folder .col-md-12 {
+  padding-left: 20px !important;
+}
+
+.card-folder .dropdown .btn {
+  border-radius: 8px;
+  color: #336799;
+  background-color: unset;
+}
+.card-folder a.dropdown-item:hover {
+  background-color: #336799 !important;
+  color: #fff !important;
+}
+
+.header-title .col-md-10,
+.panel .col-md-10 {
+  padding-right: 0px !important;
+  padding-left: 20px !important;
+}
+
+.header-title .col-md-2,
+.panel .col-md-2 {
+  padding-left: 2px !important;
+  padding-right: 0px !important;
+}
+
+.panel .breadcrumb {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #336799;
+}
+.panel .dropdown {
+  /* padding-top: 12px; */
+  height: 67px;
+  border-radius: 10px;
+  border: 1px solid #336799;
+}
+
+.panel .dropdown .btn img {
+  width: 44px;
+  margin-top: 3px;
+}
+
+
+<div class="panel">
+                <div class="row">
+                  <div class="col-md-10">
+                    <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                          <a href="index-download.html"
+                            ><span><i class="fa-solid fa-house"></i></span> Home</a
+                          >
+                        </li>
+                      </ol>
+                    </nav>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="dropdown">
+                      <button class="btn icon-chage w-100" type="button" data-toggle="dropdown" aria-expanded="false"><img src="assets/img/icon-grid.png" id="iconChange" alt="" /></button>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item list-btn" href="#"><i class="fa-solid fa-list px-2"></i>LIST</a>
+                        <a class="dropdown-item grid-btn" href="#"><i class="fa-solid fa-grip px-2 fa-lg"></i>GRID </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
